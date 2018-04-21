@@ -1,19 +1,16 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link'
+import Link from 'next/link';
+import Content from './Container/Content'
 const Index = () => (
     <div>
         <Head>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
-            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+            <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+            <link href="http://fonts.googleapis.com/css?family=Anton|Righteous|Inconsolata" rel="stylesheet"/>
+            <link href="/static/b.css" rel="stylesheet"/>
         </Head>
-        <h1>Hi, new Next.js project</h1>
-        Click{' '}
-        <Link href="/about">
-            <a>here</a>
-        </Link>{' '}
-        to read more
+        <Content />
     </div>
 )
 

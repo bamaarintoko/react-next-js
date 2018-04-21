@@ -1,13 +1,5 @@
 webpackHotUpdate(3,{
 
-/***/ "./node_modules/next/head.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/next/dist/lib/head.js")
-
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17,6 +9,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("./node_modules/next/head.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Container_Content__ = __webpack_require__("./pages/Container/Content.js");
 var _jsxFileName = 'D:\\myReactJs\\next-react-ssr\\pages\\index.js';
 
 (function () {
@@ -27,13 +22,15 @@ var _jsxFileName = 'D:\\myReactJs\\next-react-ssr\\pages\\index.js';
 
 
 
+
+
 var Index = function Index() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         {
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 4
+                lineNumber: 6
             }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -41,30 +38,36 @@ var Index = function Index() {
             {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 5
-                }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 6
-                }
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Raleway', rel: 'stylesheet', __source: {
-                    fileName: _jsxFileName,
                     lineNumber: 7
                 }
-            })
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h1',
-            {
-                __source: {
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { href: 'http://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 8
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
-            },
-            'Hi, new Next.js project'
-        )
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { href: 'http://fonts.googleapis.com/css?family=Anton|Righteous|Inconsolata', rel: 'stylesheet', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 10
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { href: '/static/b.css', rel: 'stylesheet', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 11
+                }
+            })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Container_Content__["a" /* default */], {
+            __source: {
+                fileName: _jsxFileName,
+                lineNumber: 13
+            }
+        })
     );
 };
 
@@ -110,4 +113,4 @@ var _default = Index;
 /***/ })
 
 })
-//# sourceMappingURL=3.105bfa3d50a4dbce3554.hot-update.js.map
+//# sourceMappingURL=3.ce1d5363140174ad3efa.hot-update.js.map

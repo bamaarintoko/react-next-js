@@ -6,16 +6,34 @@
   "scripts": {
     "dev": "next"
   },
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-easy-import": {
+        "prefix": "_"
+      },
+      "autoprefixer": {},
+      "pixrem": {}
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^0.28.11",
+    "lost": "^8.2.1",
     "next": "^5.1.0",
+    "pixrem": "^4.0.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-url": "^7.3.2",
+    "raw-loader": "^0.5.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-materialize": "^2.2.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.21.0"
   }
 }

@@ -1,0 +1,26 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand {
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+  }
+  .menu_text {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+  }
+
+  
