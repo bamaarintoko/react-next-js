@@ -1,8 +1,4 @@
-module.exports =
-
-        __NEXT_REGISTER_PAGE('/', function() {
-          var comp = 
-      webpackJsonp([3],{
+webpackHotUpdate(3,{
 
 /***/ "./node_modules/babel-runtime/core-js/json/stringify.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -490,14 +486,6 @@ var warnLink = (0, _utils.execOnce)(_utils.warn);
 
 /***/ }),
 
-/***/ "./node_modules/next/head.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/next/dist/lib/head.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/next/link.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -915,37 +903,6 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if(!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true,
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1010,29 +967,7 @@ var Index = function Index() {
                 }
             },
             'Hi, new Next.js project'
-        ),
-        'Click',
-        ' ',
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
-            { href: '/about', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 13
-                }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                {
-                    __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 14
-                    }
-                },
-                'here'
-            )
-        ),
-        ' ',
-        'to read more'
+        )
     );
 };
 
@@ -1075,18 +1010,7 @@ var _default = Index;
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
-/***/ }),
-
-/***/ 2:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
 /***/ })
 
-},[2])
-          return { page: comp.default }
-        })
-      ;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=3.833aa8a39a3edf3e3da9.hot-update.js.map
