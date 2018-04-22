@@ -19,11 +19,8 @@ class Header extends Component {
                 {/* <NavItem href='#' style={{position:'absolute',left:0}}>
                     <img width={64} src={logo}/>
                 </NavItem> */}
-                <NavItem href='#'><span className="menu_text" style={{float:"left"}}>|</span></NavItem>
                 <NavItem href='#'><span className="menu_text" style={{float:"left"}}>Our Team</span></NavItem>
-                <NavItem href='#'><span className="menu_text" style={{float:"left"}}>|</span></NavItem>
                 <NavItem href='#'><span className="menu_text" style={{float:"left"}}>Our Story</span></NavItem>
-                <NavItem href='#'><span className="menu_text" style={{float:"left"}}>|</span></NavItem>
                 <NavItem href='#'><span className="menu_text" style={{float:"left"}}>About</span></NavItem>
             </Navbar>
         );
