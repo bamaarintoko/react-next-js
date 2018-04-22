@@ -11,7 +11,7 @@ function mapStateToProps(state) {
 class Header extends Component {
     render() {
         return (
-            <Navbar brand={<span style={{marginLeft:10}} className="brand">MALAS<span style={{color:'#2196F3'}}>KODING</span></span>} style={{backgroundColor:'#212121'}} right>
+            <Navbar fixed={true} brand={<span style={{marginLeft:10}} className="brand">MALAS<span style={{color:'#2196F3'}}>KODING</span></span>} style={{backgroundColor:'#212121'}} right>
 
                 <NavItem href='#'>
                     <span className="menu_text" style={{float:"left"}}>Home</span>
