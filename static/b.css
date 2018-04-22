@@ -34,5 +34,19 @@
     line-height: 100vh;
     text-align: center;
 }
-
+.parent {
+	height: 50vh;
+	
+  	display: grid;
+  }
+  .child {
+	width: 100%;
+	margin: auto;
+  }
+  .text {
+    font-family: 'Anton', sans-serif;
+}
+.text_ {
+    font-family: 'Inconsolata', sans-serif;
+}
   

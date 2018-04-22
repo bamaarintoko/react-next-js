@@ -4,6 +4,9 @@ import Header from "../Components/Header";
 import { Navbar, NavItem,Col } from "react-materialize";
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import P from 'react-particles-js'
+import OurTeam from '../Pages/Spa/page-team';
+import OurStory from '../Pages/Spa/page-story';
+import About from '../Pages/Spa/page-about';
 function mapStateToProps(state) {
     return {
 
@@ -82,7 +85,15 @@ class Content extends Component {
                             </span>
                     </div>
                 </Element>
-
+                <Element name="our_team" className="element" >
+                    <OurTeam/>
+                </Element>
+                <Element name="our_story">
+                    <OurStory/>
+                </Element>
+                <Element name="about">
+                    <About/>
+                </Element>
             </Col>
         );
     }
