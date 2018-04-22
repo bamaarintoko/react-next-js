@@ -50,6 +50,7 @@ class About extends Component {
                             <img width={100} src={"/static/Logo/logo_lumen.png"}/>{' '}
                             <img width={100} src={"/static/Logo/logo_js.png"}/>{' '}
                             <img width={100} src={"/static/Logo/logo_node.png"}/>{' '}
+                            <img width={100} src={"/static/Logo/logo_next.png"}/>{' '}
                         </Col>
                         <Col m={3} s={12}>
                         </Col>
