@@ -10,6 +10,7 @@ const Index = () => (
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
             <link href="http://fonts.googleapis.com/css?family=Anton|Righteous|Inconsolata" rel="stylesheet"/>
             <link href="/static/b.css" rel="stylesheet"/>
+            <link rel="icon" type="image/x-icon" href="/static/favicon.png" />
         </Head>
         <Content />
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
