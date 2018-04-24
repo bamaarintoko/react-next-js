@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { compose, withProps } from "recompose";
-import { Col, Card, Row, CardTitle } from 'react-materialize'
+import { Col, Card, Row, CardTitle,Footer } from 'react-materialize'
 import {
     withScriptjs,
     withGoogleMap,
@@ -50,11 +50,17 @@ class About extends Component {
                             <img width={100} src={"/static/Logo/logo_node.png"} />{' '}
                             <img width={100} src={"/static/Logo/logo_next.png"} />{' '}
                         </Col>
-                        <p className='text_' style={{ fontSize: 20, marginTop:250 }}>
+                        <p className='text_' style={{ fontSize: 20, marginTop: 250 }}>
                             want to see our product? contact us at <b>info@malaskoding.com</b></p>
+                            
                     </Row>
-                    
+                    <div style={{position: 'fixed', backgroundColor:'#FEFEFE',
+    bottom: 0, width:'100%', textAlign:'center'}}>
+&copy; 2018 malaskoding.com - This website build from Next.JS and NodeJS for server
+                    </div>
+
                 </div>
+                
             </div>
         );
     }
