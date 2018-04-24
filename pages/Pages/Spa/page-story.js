@@ -19,20 +19,20 @@ class OurStory extends Component {
                         </Col>
                         <Col m={4} s={12}>
                             <Card style={{ borderRadius: 10, borderWidth: 1, borderColor: '#9E9E9E', height:200 }} className='_card' textClassName='black-text' title='Design'>
-                                <span className='text_'>we designing anything you want, we open minds, we make your app design to the next level</span>
+                                <span className='text_'>we designing anything you want, we open minds, we make your app design to the next level.</span>
                         </Card>
                         </Col>
                         <Col m={4} s={12}>
                             <Card style={{ borderRadius: 10, borderWidth: 1, borderColor: '#9E9E9E', height:200 }} className='_card' textClassName='black-text' title='Mobile App'>
-                                <span className='text_'>We create app using React Native framework. With React Native, you don't build a "mobile web app", an "HTML5 app", or a "hybrid app". You build a real mobile app that's indistinguishable from an app built using Objective-C or Java.</span>
+                                <span className='text_'>We create app using React Native framework. With React Native, you get both, android and iOS.</span>
                         </Card>
                         </Col>
                     </Row>
                 </Col>
                 <Col className='story_below' m={12} s={12}>
                     <Row className='child' style={{ textAlign: 'center' }}>
-                        <h2 className='text'>CREATED BY EXPERTS</h2>
-                        <p className='text_'>We believe in a diverse range of talent and personality brings creative skills and ideas to the web.</p>
+                        <h2 className='text'>OUR SUPPORT TEAM IS HERE FOR YOU</h2>
+                        <p className='text_'>PASSION LEADS TO DESIGN, DESIGN LEADS TO PERFORMANCE, PERFORMANCE LEADS TO SUCCESS!</p>
                     </Row>
                 </Col>
 

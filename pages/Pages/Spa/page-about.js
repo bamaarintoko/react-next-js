@@ -38,24 +38,22 @@ class About extends Component {
                     <MyMapComponent isMarkerShown />
                 </div>
                 <div className="about_below">
-                    <Row className='child' style={{ textAlign: 'center' }}>
-                        <p className='text_' style={{ fontSize: 20 }}>info@malaskoding.com</p>
+                    <Row className='child_' style={{ textAlign: 'center' }}>
                         <p className='text_' style={{ fontSize: 20 }}>Technologies In Use</p>
-                        <Col m={3} s={12}>
-                        </Col>
-                        
-                        <Col m={6} s={12}>
-                            <img width={100} src={"/static/Logo/logo_react.png"}/>{' '}
-                            <img width={100} src={"/static/Logo/logo_redux.png"}/>{' '}
-                            <img width={100} src={"/static/Logo/logo_lumen.png"}/>{' '}
-                            <img width={100} src={"/static/Logo/logo_js.png"}/>{' '}
-                            <img width={100} src={"/static/Logo/logo_node.png"}/>{' '}
-                            <img width={100} src={"/static/Logo/logo_next.png"}/>{' '}
-                        </Col>
-                        <Col m={3} s={12}>
-                        </Col>
-                    </Row>
 
+
+                        <Col m={12} s={12}>
+                            <img width={100} src={"/static/Logo/logo_react.png"} />{' '}
+                            <img width={100} src={"/static/Logo/logo_redux.png"} />{' '}
+                            <img width={100} src={"/static/Logo/logo_lumen.png"} />{' '}
+                            <img width={100} src={"/static/Logo/logo_js.png"} />{' '}
+                            <img width={100} src={"/static/Logo/logo_node.png"} />{' '}
+                            <img width={100} src={"/static/Logo/logo_next.png"} />{' '}
+                        </Col>
+                        <p className='text_' style={{ fontSize: 20, marginTop:250 }}>
+                            want to see our product? contact us at <b>info@malaskoding.com</b></p>
+                    </Row>
+                    
                 </div>
             </div>
         );
