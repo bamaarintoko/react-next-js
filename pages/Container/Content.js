@@ -45,7 +45,7 @@ class Content extends Component {
                         </NavItem>
                     </Navbar>
                     <div className='wrapper_' style={{ backgroundColor: '#212121' }}>
-                        <P
+                        {/* <P
                             params={{
                                 particles: {
                                     number: {
@@ -79,9 +79,9 @@ class Content extends Component {
                                 left: 0,
                                 width: "100%",
                                 height: "100%"
-                            }} />
-                        <span>
-                            Particles
+                            }} /> */}
+                        <span style={{ marginLeft: 10, color:'#FFFFFF'}} className="brand">
+                            MALAS<span style={{ color: '#2196F3' }}>KODING</span>
                             </span>
                     </div>
                 </Element>

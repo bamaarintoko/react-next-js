@@ -29,7 +29,7 @@ class About extends Component {
         return (
             <div style={{
                 width: "100%",
-                height: "100vh",
+                height: "100%",
                 position: 'static',
                 backgroundColor: '#FFFFFF'
             }}>
@@ -37,7 +37,7 @@ class About extends Component {
 
                     <MyMapComponent isMarkerShown />
                 </div>
-                <div className="parent">
+                <div className="about_below">
                     <Row className='child' style={{ textAlign: 'center' }}>
                         <p className='text_' style={{ fontSize: 20 }}>info@malaskoding.com</p>
                         <p className='text_' style={{ fontSize: 20 }}>Technologies In Use</p>

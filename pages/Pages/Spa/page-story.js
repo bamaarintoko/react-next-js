@@ -18,8 +18,8 @@ class OurStory extends Component {
                         </Card>
                         </Col>
                         <Col m={4} s={12}>
-                            <Card style={{ borderRadius: 10, borderWidth: 1, borderColor: '#9E9E9E', height:200 }} className='_card' textClassName='white-text' title='Design'>
-                                I am a very simple card.
+                            <Card style={{ borderRadius: 10, borderWidth: 1, borderColor: '#9E9E9E', height:200 }} className='_card' textClassName='black-text' title='Design'>
+                                <span className='text_'>we designing anything you want, we open minds, we make your app design to the next level</span>
                         </Card>
                         </Col>
                         <Col m={4} s={12}>

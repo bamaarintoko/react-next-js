@@ -20,7 +20,7 @@
 }
 .menu_text {
     font-family: 'Righteous', cursive;
-    font-size: 18px;
+    font-size: 12;
 }
 
 #sidenav-overlay { margin-left: 300px; }
@@ -58,6 +58,10 @@
   border-style: solid;
     border-width: 1px;
 }
+.about_below {
+    background-color: '#FFFFFF';
+    height:50vh;
+}
 .story_top {
 	background-color: '#FFFFFF';
 	height:50vh;
@@ -71,7 +75,11 @@
   .child_ {
     width: 100%;
     margin: auto;
-	}
+    }
+    .about_below {
+        background-color: 'black';
+        height:60vh;
+    }
 	.story_below {
 		margin-top: 200px;
 		background-color: '#FFFFFF';
