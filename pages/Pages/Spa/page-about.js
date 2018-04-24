@@ -54,9 +54,9 @@ class About extends Component {
                             want to see our product? contact us at <b>info@malaskoding.com</b></p>
                             
                     </Row>
-                    <div style={{position: 'fixed', backgroundColor:'#FEFEFE',
+                    <div style={{position: 'fixed', backgroundColor:'#EEEEEE',
     bottom: 0, width:'100%', textAlign:'center'}}>
-&copy; 2018 malaskoding.com - This website build from Next.JS and NodeJS for server
+&copy; 2018 malaskoding.com - This website build from Next.JS and NodeJS for server.
                     </div>
 
                 </div>
