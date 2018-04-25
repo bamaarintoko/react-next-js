@@ -14,6 +14,10 @@ function mapStateToProps(state) {
 }
 
 class Content extends Component {
+    componentDidMount() {
+        console.log("--->",this.props)
+    }
+    
     render() {
         return (
             <Col m={12} s={12} style={{ overflow: 'hidden' }}>
